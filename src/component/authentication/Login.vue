@@ -1,4 +1,4 @@
-<template>
+ <template>
       <div class="row">
         <div class="col-md-4 col-md-offset-4">
             <div class="panel panel-default">
@@ -39,8 +39,8 @@
     methods: {
       login() {
         var data = {
-          client_id: 4,
-          client_secret: 'bTJylbUGqB7zA8p4jqep1sZVIu0iRQwFgkrL9Csc',
+          client_id: 2,
+          client_secret: 'jHKjQ7HvX0R718XhswjXSGaMvMBmJBy9oHuiERzS',
           grant_type: 'password',
           username: this.email,
           password: this.password
